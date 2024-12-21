@@ -1,0 +1,88 @@
+/* form.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fc8181;
+}
+
+.generate_form {
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+ 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  height: 70%;
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+  margin-top: 3rem;
+}
+.title{
+  color:#f96b6b;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+
+.form_auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem;
+}
+
+.label_auth {
+  margin-top: 5px;
+  font-weight: bold;
+  margin-right: 11rem;
+}
+
+.input_auth, .input-error {
+  padding: 10px;
+  margin: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 70%;
+  font-size: 15px;
+}
+
+.input-error {
+  border-color: red;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.submit_auth {
+  padding: 10px;
+  background-color: #f96b6b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  width: 70%;
+}
+
+.submit_auth:disabled {
+  background-color: #ccc;
+}
+
+.form-image {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  margin-left: 20px;
+}
